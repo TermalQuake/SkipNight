@@ -57,9 +57,9 @@ public class Handler implements Listener {
                         }
                     }.runTaskTimer(this.plugin, 20, 20);
                     if(PlayersOnline != 1) {
-                        Bukkit.getServer().broadcastMessage("["+ NowSleep + "/" + (int)NeedToSkip + "] " + p.getName() + ChatColor.YELLOW + " Сейчас спят");
+                        Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + p.getName() + ChatColor.WHITE + " Сейчас спит " + "["+ NowSleep + " из " + (int)NeedToSkip + "] ");
                     }else {
-                        Bukkit.getServer().broadcastMessage("["+ PlayersOnline + "/" + "1" + "] " + p.getName() + ChatColor.YELLOW + " Сейчас спит");
+                        Bukkit.getServer().broadcastMessage(ChatColor.YELLOW + p.getName() +  ChatColor.WHITE + " Сейчас спит " + "["+ PlayersOnline + " из " + "1" + "] ");
                     }
 
                 }
