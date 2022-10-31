@@ -1,0 +1,6 @@
+name: SkipNight
+version: '2.0-SNAPSHOT'
+main: org.skipnight.mc.skipnight.SkipNight
+api-version: 1.19
+authors: [ TermalQuake & Feesder ]
+description: Plugin for skip of the night

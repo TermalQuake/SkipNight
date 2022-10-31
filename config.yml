@@ -1,0 +1,4 @@
+message:
+  playerSleep: "&2{player} &eзасыпает. Ждёт &c{players} &eигрока"
+  playerNoSleep: "&2{player} &eпроснулся"
+  skipNight: "&2{player} &eзасыпает. Good night"
