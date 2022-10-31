@@ -1,7 +1,0 @@
-name: Nightskips
-version: '1.0-SNAPSHOT'
-main: me.termalquake.nightskips.Nightskips
-api-version: 1.19
-authors: [ termalquake ]
-description: nightskip ru
-website: aperture.su
